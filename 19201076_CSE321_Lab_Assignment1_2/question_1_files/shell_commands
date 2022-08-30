@@ -1,0 +1,119 @@
+                      Question 1 part (a)
+cd Desktop/cse321_labs/lab1/
+  
+mkdir question_1_files     
+                      
+
+touch 19201076_1 19201076_2 19201076_3 19201076_4  
+
+mkdir AdnanHowlader1 AdnanHowlader2  
+
+mv 19201076_1 19201076_2 19201076_3 AdnanHowlader1  
+
+cd AdnanHowlader1 
+
+cp 19201076_1 19201076_2 /home/adnan/Desktop/cse321_labs/lab1/question_1_solutions/AdnanHowlader2  
+
+cd ..
+
+mkdir AdnanHowlader3
+
+cp -r AdnanHowlader1 AdnanHowlader3
+
+cd AdnanHowlader3 
+
+chmod 755 AdnanHowlader1/
+ 
+cd ..
+
+ls -l
+
+##opening new tab in terminal
+           
+           cd /.
+           sudo mkdir root_empty
+           
+           
+##old tab
+sudo mv AdnanHowlader3 /root_empty/ 
+
+
+cd..
+rm -rf question_1_files/    
+
+
+
+
+
+
+                     Question 1(b)
+                     
+                     
+ cd Desktop/cse321_labs/lab1/
+ 
+ mkdir question_1_files
+ 
+ cd question_1_files/
+ 
+ touch course_info 
+ 
+ 
+ cat>course_info                                         
+CSE 321 operating system
+CSE 340 computer architecture
+CSE 420 compiler design
+CSE 350 digital logic
+
+grep -o -i CSE course_info | wc -l
+
+
+
+ 
+                 Question 1(c) 
+                 
+                 
+cd / 
+
+ls -a
+
+
+                Question 1(d)
+                
+                
+ cd home/adnan/Desktop/cse321_labs/lab1/question_1_files
+ 
+ touch test.txt
+ 
+ sed -n '5,17 p' test.txt   
+
+ 
+                
+                
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
